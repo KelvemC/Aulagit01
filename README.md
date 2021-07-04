@@ -150,3 +150,18 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 # como eu já criei minha linha do tempo nem preciso usar o push como o da primeira vez agora é só:
 
 - git push
+
+
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
+
+# vá em algum repositório criado pegue o link e use:
+
+- git clone link
+
+
+
+
+
+
+
+- [] Você precisa resolver um conflito
