@@ -185,3 +185,8 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 
 - [x] Você precisa voltar um arquivo para um determinado momento na linha do tempo.
 
+# Usando o git log, você descobre o momento e depois use:
+
+- git checkout coloque o ponto da linha do tempo -- arquivo
+
+lakfdjdlafndfafafafadfkadn
