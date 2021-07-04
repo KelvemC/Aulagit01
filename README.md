@@ -1,4 +1,4 @@
-# GIT  E GIT HUB
+# GIT  E GITHUB
 
 Guia prático para iniciantes.
 
@@ -141,3 +141,7 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 # seu eu quero adicionar todas as coisas que estiverem em minha página uso o comando:
 
 - git add .
+
+# como eu já criei minha linha do tempo nem preciso usar o push como o da primeira vez agora é só:
+
+- git push
