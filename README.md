@@ -191,9 +191,9 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 - git checkout ponto da linha do tempo -- arquivo que desja que volte para um determinado ponto
 
 
-- [] Você precisa recuperar algo deletado.
+- [x] Você precisa recuperar algo deletado.
 
 
 # use o git status para saber as mudanças e o arquivo que foi deletado e depois use:
 
-- git checkout -- nome do arquivo que foi deletado
+- git checkout número do commit -- nome do arquivo que foi deletado
