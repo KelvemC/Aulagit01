@@ -158,10 +158,14 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 
 - git clone link
 
+# posso criar um branch nova com um comando curto:
+
+- git checkout -b nome da branch
 
 
+# posso usar um comando curto para adiconar ou atualizar comentando algo:
 
-
+- git commit -am "texto"
 
 
 - [] Você precisa resolver um conflito
