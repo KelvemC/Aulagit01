@@ -168,4 +168,11 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 - git commit -am "texto"
 
 
-- [] Você precisa resolver um conflito
+- [x] Você precisa resolver um conflito
+
+# em caso de tentar unir duas branch criadas, poderá ocorrer algum conflito e para a solução é só ir até o local que está ocorrendo o conflito e escolher uma das opções que o vscode ajuda para a solução.
+
+- vim nome do projeto para alterar 
+
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
+
