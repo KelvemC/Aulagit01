@@ -197,3 +197,5 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 # use o git status para saber as mudanças e o arquivo que foi deletado e depois use:
 
 - git checkout número do commit -- nome do arquivo que foi deletado
+
+fim do tutorial by kelvem
