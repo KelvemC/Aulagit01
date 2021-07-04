@@ -192,3 +192,8 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 
 
 - [] Você precisa recuperar algo deletado.
+
+
+# use o git status para saber as mudanças e o arquivo que foi deletado e depois use:
+
+- git checkout -- nome do arquivo que foi deletado
