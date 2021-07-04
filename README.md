@@ -122,8 +122,9 @@ resumo
 * `git checkout` // manipular as linhas do tempo.
 * `git merge` // unir as linhas do tempo.
 * `git push` // envia as alterações locais para o repositório remoto.
-
-
+* `git clone` // clonar um projeto.
+* `git pull` // puxar do repositório remoto uma atualização.
+* ``
 # COMO COLOCAR MEU PROJETO NA NUVEM (GITHUB)
 
 - [x] Você quer colocar seu projeto na nuvem.
@@ -188,3 +189,6 @@ o git que foi criado aqui é um repositório local e o do github é um repositó
 # use o comando git log para saber o ponto  e use:
 
 - git checkout ponto da linha do tempo -- arquivo que desja que volte para um determinado ponto
+
+
+- [] Você precisa recuperar algo deletado.
