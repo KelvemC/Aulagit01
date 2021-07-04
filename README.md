@@ -8,9 +8,9 @@ https://git-scm.com/download
 
 # SCENES
 
-- [x] Você deseja criar pontos na história da produção do seu projeto
+- [x] Você deseja criar pontos na história da produção do seu projeto.
 
-# para iniciar o git no projeto use
+# Para iniciar o git no projeto use
 
 - git init
 
@@ -18,51 +18,51 @@ https://git-scm.com/download
 
 - touch landingpage.html
 
-# escreva dentro dela "landingpage finalizada"
+# Escreva dentro dela "landingpage finalizada"
 
-# eu quero criar um ponto na história na minha produção a onde eu iniciei a landingpage
+# Eu quero criar um ponto na história na minha produção a onde eu iniciei a landingpage
 
 - git add landingpage.html
 
-# agora posso passar uma mensagem usando esse comando:
+# Agora posso passar uma mensagem usando esse comando:
 
 - git commit -m "mensagem"
 
-# agora eu quero olhar o ponto da história:
+# Agora eu quero olhar o ponto da história:
 
-- [x] Você deseja verificar mudanças feitas no seu projeto
+- [x] Você deseja verificar mudanças feitas no seu projeto.
 
 - git log 
 
-# agora eu quero fazer uma alteração na minha landingpage.
+# Agora eu quero fazer uma alteração na minha landingpage.
 
-# faça as alterações no arquivo
+# Faça as alterações no arquivo
 
-# existe um comando para ver o estado do meu desenvolvimento:
+# Existe um comando para ver o estado do meu desenvolvimento:
 
 - git status
 
-# no git precisamos informar qual arquivo deve ser colocado no ponto da história (qual arquivo devo enviar para meu repositório), o comando do commit vai sempre enviar arquivos para lá, mas qual arquivos? é os arquivo que adicionamos com o git add
+# No git precisamos informar qual arquivo deve ser colocado no ponto da história (qual arquivo devo enviar para meu repositório), o comando do commit vai sempre enviar arquivos para lá, mas qual arquivos? é os arquivo que adicionamos com o git add
 
-# para adicionar no novo ponto use o mesmo comando:
+# Para adicionar no novo ponto use o mesmo comando:
 
 - git add landingpage.html
 
-# e depois um git commit para criar o ponto na história
+# E depois um git commit para criar o ponto na história
 
 - git commit -m "texto"
 
-# agora posso verificar as mudanças feita no meu projeto 
+# Agora posso verificar as mudanças feita no meu projeto 
 
 - git log
 
-# apartir desses pontos criados na história, eu posso visitar eles e ver o que foi feitos neles.
+# Apartir desses pontos criados na história, eu posso visitar eles e ver o que foi feitos neles.
 
-# copie o codigo do commit e use:
+# Copie o codigo do commit e use:
 
 - git show número do commit
 
-# use git show sem número nenhum para visualizar o último ponto na história
+# Use git show sem número nenhum para visualizar o último ponto na história
 
 - git show
 
@@ -71,25 +71,25 @@ https://git-scm.com/download
 
 - [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
 
-# podemo usar o poder da branch no git (o branch significa ramificação ) enquanto estou na ramificação master, eu posso criar uma linha alternativa apartir da branch:
+# Podemo usar o poder da branch no git (o branch significa ramificação ) enquanto estou na ramificação master, eu posso criar uma linha alternativa apartir da branch:
 
-# podemos colocar um nome para branch do tipo cart git branch feature/cart
+# Podemos colocar um nome para branch do tipo cart git branch feature/cart
 
 - git branch 
 
-# para eu mudar para essa branch use:
+# Para eu mudar para essa branch use:
 
 - git checkout nome da branch
 
-# agora que estou nessa linha alternativa eu posso criar meu arquivo:
+# Agora que estou nessa linha alternativa eu posso criar meu arquivo:
 
 - touch cart.html
 
-# podemos voltar para linha do tempo principal
+# Podemos voltar para linha do tempo principal
 
 - git checkout master 
 
-# e podemos ver nossa linhas do tempo usando o :
+# E podemos ver nossa linhas do tempo usando o :
 
 - git branch
 
@@ -100,14 +100,14 @@ https://git-scm.com/download
 
 - [x] Você adiciona as novas funcionalidades ao seu projeto em produção.
 
-# podemos unir a linha paralela que foi criada a essa principal, use:
+# Podemos unir a linha paralela que foi criada a essa principal, use:
 
 - git merge nome da branch
 
 
 - [x] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto. 
 
-# para deletar uma branch use o comando:
+# Para deletar uma branch use o comando:
 
 - git branch -D nome da branch
 
@@ -126,53 +126,62 @@ resumo
 
 # COMO COLOCAR MEU PROJETO NA NUVEM (GITHUB)
 
-- [x] Você quer colocar seu projeto na nuvem
+- [x] Você quer colocar seu projeto na nuvem.
 
 o git que foi criado aqui é um repositório local e o do github é um repositório remoto.
 
-# depois de criar o repositório use:
+# Depois de criar o repositório use:
 
 -  git remote add origin https://github.com/KelvemC/Aulagit01.git
 
-# para visualizar meu repositório remotos 
+# Para visualizar meu repositório remotos 
 
 - git remot -v
 
-# agora podemos usar o gitpush ele é o que vai colocar meu repositório local no remoto, mas como
+# Agora podemos usar o gitpush ele é o que vai colocar meu repositório local no remoto, mas como
 # é minha primeira vez use o comando:
 
 - git push -u origin master
 
-# seu eu quero adicionar todas as coisas que estiverem em minha página uso o comando:
+# Seu eu quero adicionar todas as coisas que estiverem em minha página uso o comando:
 
 - git add .
 
-# como eu já criei minha linha do tempo nem preciso usar o push como o da primeira vez agora é só:
+# Como eu já criei minha linha do tempo nem preciso usar o push como o da primeira vez agora é só:
 
 - git push
 
 
-- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time.
 
-# vá em algum repositório criado pegue o link e use:
+# Vá em algum repositório criado pegue o link e use:
 
 - git clone link
 
-# posso criar um branch nova com um comando curto:
+# Posso criar um branch nova com um comando curto:
 
 - git checkout -b nome da branch
 
 
-# posso usar um comando curto para adiconar ou atualizar comentando algo:
+# Posso usar um comando curto para adiconar ou atualizar comentando algo:
 
 - git commit -am "texto"
 
 
-- [x] Você precisa resolver um conflito
+- [x] Você precisa resolver um conflito.
 
-# em caso de tentar unir duas branch criadas, poderá ocorrer algum conflito e para a solução é só ir até o local que está ocorrendo o conflito e escolher uma das opções que o vscode ajuda para a solução.
+# Em caso de tentar unir duas branch criadas, poderá ocorrer algum conflito e para a solução é só ir até o local que está ocorrendo o conflito e escolher uma das opções que o vscode ajuda para a solução.
 
 - vim nome do projeto para alterar 
 
 - [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
+
+# O comando git pull é um comando que vai puxar atualizações na nuvem
+
+- git pull
+
+# em seguida é só dar um git push
+
+
+- [x] Você precisa voltar um arquivo para um determinado momento na linha do tempo.
 
