@@ -14,7 +14,7 @@ https://git-scm.com/download
 
 - git init
 
-# Vamos fizer que tenho um projeto de uma landingpage.html
+# Vamos dizer que tenho um projeto de uma landingpage.html
 
 - touch landingpage.html
 
